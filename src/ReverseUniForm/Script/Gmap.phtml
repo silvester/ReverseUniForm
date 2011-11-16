@@ -1,0 +1,17 @@
+<?php $this->headScript()->appendFile('http://maps.google.com/maps/api/js?sensor=false&region=SI'); ?>
+
+<div class="ctrlHolder<?= $this->last;?> <?php if($this->element->getMessages()) { ?>error<?php } ?>">
+	<p class="label">
+		<?php if($this->element->isRequired()) { ?><em>*</em><?php } ?>
+		<?= $this->element->getLabel(); ?>
+	</p>
+	<div class="textInput" id="<?= $this->element->getId(); ?>" style="height: 200px;"></div>
+	<?php if ($this->element->getMessages()){ echo $this->element->getView()->formErrors($this->element->getMessages()); }; ?>
+	<?php if ($this->element->getDescription()){ ?><p class="formHint"><span><?= $this->element->getDescription(); ?></span></p><?php } ?>
+</div>
+
+<?php $this->placeholder('UniForm')->captureStart() ?>
+	var myOptions = {zoom: 8, mapTypeId: google.maps.MapTypeId.ROADMAP, center: new google.maps.LatLng(46.15, 14.9)};
+	var map = new google.maps.Map(document.getElementById("gmap"), myOptions);
+	$('#<?= $this->element->getId(); ?>').data('map', map);
+<?php $this->placeholder('UniForm')->captureEnd() ?>

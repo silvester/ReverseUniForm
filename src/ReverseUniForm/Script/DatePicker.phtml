@@ -1,0 +1,13 @@
+<div class="ctrlHolder<?= $this->last;?> <?php if($this->element->getMessages()) { ?>error<?php } ?>">
+	<label for="<?= $this->element->getId(); ?>">
+		<?php if($this->element->isRequired()) { ?><em>*</em><?php } ?>
+		<?= $this->element->getLabel(); ?>
+	</label>
+	<input type="text" class="textInput <?= $this->element->class; ?>" id="<?= $this->element->getId(); ?>" name="<?= $this->element->getName(); ?>" value="<?= $this->element->getValue(); ?>">
+	<?php if ($this->element->getMessages()){ echo $this->element->getView()->formErrors($this->element->getMessages()); }; ?>
+	<?php if ($this->element->getDescription()){ ?><p class="formHint"><span><?= $this->element->getDescription(); ?></span></p><?php } ?>
+</div>
+
+<?php $this->placeholder('UniForm')->captureStart() ?>
+$('#<?= $this->element->getId(); ?>').datepicker();
+<?php $this->placeholder('UniForm')->captureEnd() ?>
