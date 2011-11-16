@@ -1,98 +1,96 @@
 .
-ÃÄÄ css
-³   ÀÄÄ uni-form
-³       ÃÄÄ css
-³       ³   ÃÄÄ blue.uni-form.css
-³       ³   ÃÄÄ dark.uni-form.css
-³       ³   ÃÄÄ default.uni-form.css
-³       ³   ÃÄÄ ready.uni-form.css
-³       ³   ÀÄÄ uni-form.css
-³       ÃÄÄ demos
-³       ³   ÃÄÄ callback.html
-³       ³   ÃÄÄ checkboxes.html
-³       ³   ÃÄÄ css
-³       ³   ÃÄÄ fauxform.html
-³       ³   ÃÄÄ fauxform_readonly.html
-³       ³   ÃÄÄ localization.html
-³       ³   ÀÄÄ validation.html
-³       ÃÄÄ img
-³       ³   ÃÄÄ ok.png
-³       ³   ÀÄÄ uni-form-logo.png
-³       ÃÄÄ js
-³       ³   ÃÄÄ uni-form.jquery.js
-³       ³   ÃÄÄ uni-form.jquery.min.js
-³       ³   ÃÄÄ uni-form-validation.jquery.js
-³       ³   ÀÄÄ uni-form-validation.jquery.min.js
-³       ÃÄÄ localization
-³       ³   ÃÄÄ da.js
-³       ³   ÃÄÄ de.js
-³       ³   ÃÄÄ es.js
-³       ³   ÃÄÄ fr.js
-³       ³   ÃÄÄ it.js
-³       ³   ÀÄÄ tr.js
-³       ÃÄÄ README.md
-³       ÃÄÄ test
-³       ³   ÃÄÄ form.js
-³       ³   ÃÄÄ index.html
-³       ³   ÃÄÄ issues.js
-³       ³   ÀÄÄ validation.js
-³       ÀÄÄ VALIDATION.md
-ÃÄÄ index.php
-ÃÄÄ js
-³   ÃÄÄ jquery-1.7.min.js
-³   ÃÄÄ jquery-timepicker
-³   ³   ÃÄÄ jquery-ui-timepicker-addon.css
-³   ³   ÃÄÄ jquery-ui-timepicker-addon.js
-³   ³   ÃÄÄ localization
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-ca.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-cs.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-de.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-el.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-es.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-et.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-fi.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-fr.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-he.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-hu.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-id.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-it.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-ja.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-lt.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-nl.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-pl.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-pt-BR.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-pt.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-ro.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-ru.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-sk.js
-³   ³   ³   ÃÄÄ jquery-ui-timepicker-tr.js
-³   ³   ³   ÀÄÄ jquery-ui-timepicker-vi.js
-³   ³   ÀÄÄ README.md
-³   ÃÄÄ jqueryui
-³   ³   ÃÄÄ css
-³   ³   ³   ÀÄÄ smoothness
-³   ³   ÃÄÄ development-bundle
-³   ³   ³   ÃÄÄ AUTHORS.txt
-³   ³   ³   ÃÄÄ demos
-³   ³   ³   ÃÄÄ docs
-³   ³   ³   ÃÄÄ external
-³   ³   ³   ÃÄÄ GPL-LICENSE.txt
-³   ³   ³   ÃÄÄ jquery-1.6.2.js
-³   ³   ³   ÃÄÄ MIT-LICENSE.txt
-³   ³   ³   ÃÄÄ themes
-³   ³   ³   ÃÄÄ ui
-³   ³   ³   ÀÄÄ version.txt
-³   ³   ÃÄÄ index.html
-³   ³   ÀÄÄ js
-³   ³       ÃÄÄ jquery-1.6.2.min.js
-³   ³       ÀÄÄ jquery-ui-1.8.16.custom.min.js
-³   ÀÄÄ tinymce
-³       ÃÄÄ changelog.txt
-³       ÃÄÄ examples
-³       ³   ÃÄÄ css
-³       ³   ÀÄÄ index.html
-³       ÀÄÄ jscripts
-³           ÀÄÄ tiny_mce
-ÀÄÄ tree.txt
-
-27 directories, 68 files
+â”œâ”€â”€ css
+â”‚   â””â”€â”€ uni-form
+â”‚       â”œâ”€â”€ css
+â”‚       â”‚   â”œâ”€â”€ blue.uni-form.css
+â”‚       â”‚   â”œâ”€â”€ dark.uni-form.css
+â”‚       â”‚   â”œâ”€â”€ default.uni-form.css
+â”‚       â”‚   â”œâ”€â”€ ready.uni-form.css
+â”‚       â”‚   â””â”€â”€ uni-form.css
+â”‚       â”œâ”€â”€ demos
+â”‚       â”‚   â”œâ”€â”€ callback.html
+â”‚       â”‚   â”œâ”€â”€ checkboxes.html
+â”‚       â”‚   â”œâ”€â”€ css
+â”‚       â”‚   â”œâ”€â”€ fauxform.html
+â”‚       â”‚   â”œâ”€â”€ fauxform_readonly.html
+â”‚       â”‚   â”œâ”€â”€ localization.html
+â”‚       â”‚   â””â”€â”€ validation.html
+â”‚       â”œâ”€â”€ img
+â”‚       â”‚   â”œâ”€â”€ ok.png
+â”‚       â”‚   â””â”€â”€ uni-form-logo.png
+â”‚       â”œâ”€â”€ js
+â”‚       â”‚   â”œâ”€â”€ uni-form.jquery.js
+â”‚       â”‚   â”œâ”€â”€ uni-form.jquery.min.js
+â”‚       â”‚   â”œâ”€â”€ uni-form-validation.jquery.js
+â”‚       â”‚   â””â”€â”€ uni-form-validation.jquery.min.js
+â”‚       â”œâ”€â”€ localization
+â”‚       â”‚   â”œâ”€â”€ da.js
+â”‚       â”‚   â”œâ”€â”€ de.js
+â”‚       â”‚   â”œâ”€â”€ es.js
+â”‚       â”‚   â”œâ”€â”€ fr.js
+â”‚       â”‚   â”œâ”€â”€ it.js
+â”‚       â”‚   â””â”€â”€ tr.js
+â”‚       â”œâ”€â”€ README.md
+â”‚       â”œâ”€â”€ test
+â”‚       â”‚   â”œâ”€â”€ form.js
+â”‚       â”‚   â”œâ”€â”€ index.html
+â”‚       â”‚   â”œâ”€â”€ issues.js
+â”‚       â”‚   â””â”€â”€ validation.js
+â”‚       â””â”€â”€ VALIDATION.md
+â”œâ”€â”€ index.php
+â”œâ”€â”€ js
+â”‚   â”œâ”€â”€ jquery-1.7.min.js
+â”‚   â”œâ”€â”€ jquery-timepicker
+â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-addon.css
+â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-addon.js
+â”‚   â”‚   â”œâ”€â”€ localization
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-ca.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-cs.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-de.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-el.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-es.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-et.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-fi.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-fr.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-he.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-hu.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-id.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-it.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-ja.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-lt.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-nl.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-pl.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-pt-BR.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-pt.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-ro.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-ru.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-sk.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-ui-timepicker-tr.js
+â”‚   â”‚   â”‚   â””â”€â”€ jquery-ui-timepicker-vi.js
+â”‚   â”‚   â””â”€â”€ README.md
+â”‚   â”œâ”€â”€ jqueryui
+â”‚   â”‚   â”œâ”€â”€ css
+â”‚   â”‚   â”‚   â””â”€â”€ smoothness
+â”‚   â”‚   â”œâ”€â”€ development-bundle
+â”‚   â”‚   â”‚   â”œâ”€â”€ AUTHORS.txt
+â”‚   â”‚   â”‚   â”œâ”€â”€ demos
+â”‚   â”‚   â”‚   â”œâ”€â”€ docs
+â”‚   â”‚   â”‚   â”œâ”€â”€ external
+â”‚   â”‚   â”‚   â”œâ”€â”€ GPL-LICENSE.txt
+â”‚   â”‚   â”‚   â”œâ”€â”€ jquery-1.6.2.js
+â”‚   â”‚   â”‚   â”œâ”€â”€ MIT-LICENSE.txt
+â”‚   â”‚   â”‚   â”œâ”€â”€ themes
+â”‚   â”‚   â”‚   â”œâ”€â”€ ui
+â”‚   â”‚   â”‚   â””â”€â”€ version.txt
+â”‚   â”‚   â”œâ”€â”€ index.html
+â”‚   â”‚   â””â”€â”€ js
+â”‚   â”‚       â”œâ”€â”€ jquery-1.6.2.min.js
+â”‚   â”‚       â””â”€â”€ jquery-ui-1.8.16.custom.min.js
+â”‚   â””â”€â”€ tinymce
+â”‚       â”œâ”€â”€ changelog.txt
+â”‚       â”œâ”€â”€ examples
+â”‚       â”‚   â”œâ”€â”€ css
+â”‚       â”‚   â””â”€â”€ index.html
+â”‚       â””â”€â”€ jscripts
+â”‚           â””â”€â”€ tiny_mce
+â””â”€â”€ tree.txt
