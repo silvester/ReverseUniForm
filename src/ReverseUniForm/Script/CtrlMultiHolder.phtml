@@ -1,0 +1,29 @@
+<?php 
+	$elements = $this->element->getElements();
+	$error = array();
+	foreach($elements as $elm){
+		if($elm->getMessages()){
+			$error = array_merge($error, $elm->getMessages()); 
+		}
+	}
+?>
+
+<div class="ctrlHolder <?php if(count($error) > 0) { echo 'error'; }?>">
+	<p class="label"><?= $this->element->getLegend(); ?></p>
+	<ul>
+		<?php foreach($elements as $name => $elm) { ?>
+		<li style="margin-bottom: 10px;">
+			<label>
+				<?php if($elm->isRequired()) {echo '<em>*</em> '; }?>
+				<?php if($elm->getTranslator()) { echo $elm->getTranslator()->translate($elm->getLabel()); } else { echo $elm->getLabel(); } ?>
+				<?php
+					$helper = $elm->helper;
+					echo $this->$helper($elm->getName(), $elm->getValue(), $elm->getAttribs(), $elm->options); 
+				?>
+			</label>
+			<?php if($elm->getMessages()) { echo $this->element->getView()->formErrors($elm->getMessages()); } ?>
+			<?php if ($elm->getDescription()){ ?><p class="formHint"><span><?= $elm->getDescription(); ?></span></p><?php } ?>
+		</li>
+		<?php } ?>
+	</ul>
+</div>

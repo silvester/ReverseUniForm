@@ -1,0 +1,26 @@
+<div class="ctrlHolder<?= $this->last;?> <?php if($this->element->getMessages()) { ?>error<?php } ?>">
+	
+	<p class="label">
+		<?php if($this->element->isRequired()) { ?><em>*</em><?php } ?>
+		<?= $this->element->getLabel(); ?>
+	</p>
+	
+	<ul>
+		<?php foreach($this->element->multiOptions as $val => $label) { ?>
+		<li>
+			<label>
+				<input 
+					value="<?= $val; ?>" 
+					name="<?= $this->element->getName(); ?><?php if($this->element->elementType == 'checkbox') { echo '[]'; } ?>" 
+					type="<?= $this->element->elementType; ?>"
+					style="" 
+					<?php if($val == $this->element->getValue()) { echo 'checked="checked"'; } ?>/> 
+				<?php if($this->element->getTranslator()) { echo $this->element->getTranslator()->translate($label); } else { echo $label; } ?>
+			</label>
+		</li>
+		<?php } ?>
+	</ul>
+	
+	<?php if ($this->element->getMessages()){ echo $this->element->getView()->formErrors($this->element->getMessages()); }; ?>
+	<?php if ($this->element->getDescription()){ ?><p class="formHint"><span><?= $this->element->getDescription(); ?></span></p><?php } ?>
+</div>
