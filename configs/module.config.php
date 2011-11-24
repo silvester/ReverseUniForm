@@ -2,9 +2,10 @@
 return array(
     'uniform' => array(
 		'uniform' 		=> array('path' => '/css/uni-form/css/', 'theme' => 'blue'),
-		'jqueryui'		=> array('path' => '/js/jqueryui/', 'theme' => 'Aristo'),
+		'jqueryui'		=> array('path' => '/js/jqueryui/', 'theme' => 'base'),
 		'timepicker' 	=> array('path' => '/js/jquery-timepicker/'),
 		'tinymce'		=> array('path' => '/js/tinymce/'),
+		'jquery'		=> array('path' => '/js/jquery-1.7.1.min.js'),
 	),
 	
     'di' => array(

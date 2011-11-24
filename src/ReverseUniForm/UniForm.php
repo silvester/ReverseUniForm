@@ -18,6 +18,7 @@ class UniForm extends Form
 	public function init()
 	{
 
+		$this->getView()->headScript()->appendFile(UniForm::$_config['jquery']['path']);
 		$this->getView()->headLink()->appendStylesheet(self::$_config['uniform']['path'] . 'uni-form.css')
 									->appendStylesheet(self::$_config['uniform']['path'] . self::$_config['uniform']['theme'] .'.uni-form.css');
 
