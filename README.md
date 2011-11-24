@@ -1,4 +1,4 @@
-A demo what it does can be found at http://zf2.reverse.si/. Creates decorators compatible with uni-form css framework and adds some news elements.
+A demo what it does can be found at http://zf2.reverse.si/uniform-demo. Creates decorators compatible with uni-form css framework and adds some news elements.
 
 Used external libraries are:
 
