@@ -12,6 +12,9 @@ use ReverseUniForm\UniForm;
 
 class Module
 {
+	protected $view;
+    protected $viewListener;
+	
     /**
      * Initiate the module.
      * 
@@ -24,8 +27,7 @@ class Module
 		
 		$cf = $this->getConfig();
 		
-		UniForm::$_config = $cf->uniform;
-		
+		UniForm::$_config = $cf->uniform;	
 		
     }
 
