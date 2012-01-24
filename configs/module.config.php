@@ -1,4 +1,5 @@
 <?php
+
 return array(
     'uniform' => array(
 		'uniform' 		=> array('path' => '/css/uni-form/css/', 'theme' => 'blue'),
@@ -18,12 +19,11 @@ return array(
                     'resolver' => 'Zend\View\TemplatePathStack',
                     'options'  => array(
                         'script_paths' => array(
-                            'uniformme' => __DIR__ . '/../views',
+                            'uniformView' 		=> __DIR__ . '/../views',
                         ),
                     ),
                 ),
             ),
-			
         ),
     ),
     
