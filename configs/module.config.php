@@ -1,6 +1,7 @@
 <?php
 
 return array(
+
     'uniform' => array(
 		'uniform' 		=> array('path' => '/css/uni-form/css/', 'theme' => 'blue'),
 		'jqueryui'		=> array('path' => '/js/jqueryui/', 'theme' => 'base'),
@@ -24,19 +25,22 @@ return array(
                     ),
                 ),
             ),
-        ),
-    ),
-    
-    'routes' => array(
-        'uniform' => array(
-            'type' => 'Zend\Mvc\Router\Http\Literal',
-            'options' => array(
-                'route'    => '/uniform-demo',
-                'defaults' => array(
-                    'controller' => 'uniform',
-                    'action'     => 'index',
-                ),
-            ),
+			'Zend\Mvc\Router\RouteStack' => array(
+                'parameters' => array(
+                    'routes' => array(
+                        'uniform' => array(
+                            'type'    => 'Zend\Mvc\Router\Http\Literal',
+                            'options' => array(
+                                'route'    => '/uniform-demo',
+                                'defaults' => array(
+                                    'controller' => 'uniform',
+                                    'action'     => 'index',
+								),
+							),
+						),
+					),
+				),
+			),
         ),
     ),
     

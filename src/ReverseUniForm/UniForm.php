@@ -26,9 +26,9 @@ class UniForm extends Form
 
 		$this->addPrefixPath('ReverseUniForm\Decorator', 'ReverseUniForm/Decorator', 'decorator');
 
-		$this->addPrefixPath('ReverseUniForm\Element', 'ReverseUniForm/Element/', 'element');
+		$this->addPrefixPath('ReverseUniForm\Element', 'ReverseUniForm/Element', 'element');
 		
-		$this->addElementPrefixPath('ReverseUniForm\Validate', 'ReverseUniForm/Validate/', 'validate');
+		$this->addElementPrefixPath('ReverseUniForm\Validate', 'ReverseUniForm/Validate', 'validate');
 
 		$Fieldset = new Fieldset(array('class' => 'inlineLabels'));
 		
